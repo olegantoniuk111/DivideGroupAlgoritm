@@ -6,16 +6,6 @@ import java.util.*;
 public class PersonWeightService {
     public static List<Person> sortPersons(List<Person> persons){
         Collections.sort(persons);
-
-        //        persons.sort(new Comparator<Person>() {
-//            @Override
-//            public int compare(Person o1, Person o2) {
-//                Integer weight1 = o1.getWeight();
-//                Integer weight2 = o2.getWeight();
-//                return weight1.compareTo(weight2);
-//
-//            }
-//        });
         return persons;
     }
 
