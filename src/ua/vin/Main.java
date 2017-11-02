@@ -11,22 +11,14 @@ public class Main {
 
          List<Person> persons = new ArrayList<>();
         persons.add(new Person(21));
-        persons.add(new Person(21));
+        persons.add(new Person(26));
         persons.add(new Person(22));
         persons.add(new Person(23));
         persons.add(new Person(24));
         persons.add(new Person(25));
         persons.add(new Person(26));
         persons.add(new Person(27));
-        persons.add(new Person(28));
-        persons.add(new Person(12));
-        persons.add(new Person(31));
-        persons.add(new Person(44));
-        persons.add(new Person(54));
-        persons.add(new Person(95));
-        persons.add(new Person(43));
-        persons.add(new Person(76));
-        persons.add(new Person(76));
+
 
 
         persons.stream().forEach(p-> System.out.print(p.getWeight() +"||| " ));

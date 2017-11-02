@@ -1,22 +1,21 @@
 package ua.vin;
 
 import java.awt.peer.ListPeer;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class PersonWeightService {
     public static List<Person> sortPersons(List<Person> persons){
-        persons.sort(new Comparator<Person>() {
-            @Override
-            public int compare(Person o1, Person o2) {
-                Integer weight1 = o1.getWeight();
-                Integer weight2 = o2.getWeight();
-                return weight1.compareTo(weight2);
+        Collections.sort(persons);
 
-            }
-        });
+        //        persons.sort(new Comparator<Person>() {
+//            @Override
+//            public int compare(Person o1, Person o2) {
+//                Integer weight1 = o1.getWeight();
+//                Integer weight2 = o2.getWeight();
+//                return weight1.compareTo(weight2);
+//
+//            }
+//        });
         return persons;
     }
 
