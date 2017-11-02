@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff03e928-b144-496c-a5ad-d464f87c694f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DivideGroupAlgoritm/ua/vin/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DivideGroupAlgoritm/ua/vin/Person.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DivideGroupAlgoritm/ua/vin/PersonWeightService$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DivideGroupAlgoritm/ua/vin/PersonWeightService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DivideGroupAlgoritm.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/vin/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/vin/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/vin/PersonWeightService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,31 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersonWeightService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PersonWeightService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/vin/PersonWeightService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="78" column="60" lean-forward="false" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+            <state relative-caret-position="255">
+              <caret line="67" column="128" lean-forward="false" selection-start-line="67" selection-start-column="128" selection-end-line="67" selection-end-column="128" />
               <folding>
                 <element signature="method#sortPersons#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="class#284:559" expanded="false" />
                 <element signature="method#compare#0;class#284:559" expanded="false" />
                 <element signature="method#calculateGroupOfPersonsWeight#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="method#getPersonWithMaxWeight#0;class#PersonWeightService#0" expanded="false" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
                 <element signature="method#getDiferenceWeightBetweenTwoGroups#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="method#getMaxElementsBeforeHalf#0;class#PersonWeightService#0" expanded="false" />
+                <element signature="method#evaluateData#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="method#excludeGivenPersons#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="method#hasIdenticElements#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="method#getSearchBoundary#0;class#PersonWeightService#0" expanded="false" />
                 <element signature="method#calcOptimalGroupWeight#0;class#PersonWeightService#0" expanded="false" />
+                <element signature="method#hasSmallestElemThenDifference#0;class#PersonWeightService#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/vin/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -336,16 +326,15 @@
       <workItem from="1509464695205" duration="4859000" />
       <workItem from="1509552894840" duration="910000" />
       <workItem from="1509581510359" duration="4274000" />
-      <workItem from="1509619210227" duration="10228000" />
+      <workItem from="1509619210227" duration="10493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20271000" />
+    <option name="totallyTimeSpent" value="20536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -355,10 +344,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28843537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28843537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -400,14 +389,14 @@
             <element signature="method#compare#0;class#284:559" expanded="false" />
             <element signature="method#calculateGroupOfPersonsWeight#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getPersonWithMaxWeight#0;class#PersonWeightService#0" expanded="false" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
             <element signature="method#getDiferenceWeightBetweenTwoGroups#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getMaxElementsBeforeHalf#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#evaluateData#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#excludeGivenPersons#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#hasIdenticElements#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getSearchBoundary#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#calcOptimalGroupWeight#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#hasSmallestElemThenDifference#0;class#PersonWeightService#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -438,14 +427,14 @@
             <element signature="method#compare#0;class#284:559" expanded="false" />
             <element signature="method#calculateGroupOfPersonsWeight#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getPersonWithMaxWeight#0;class#PersonWeightService#0" expanded="false" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
             <element signature="method#getDiferenceWeightBetweenTwoGroups#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getMaxElementsBeforeHalf#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#evaluateData#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#excludeGivenPersons#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#hasIdenticElements#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getSearchBoundary#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#calcOptimalGroupWeight#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#hasSmallestElemThenDifference#0;class#PersonWeightService#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -476,14 +465,14 @@
             <element signature="method#compare#0;class#284:559" expanded="false" />
             <element signature="method#calculateGroupOfPersonsWeight#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getPersonWithMaxWeight#0;class#PersonWeightService#0" expanded="false" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
             <element signature="method#getDiferenceWeightBetweenTwoGroups#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getMaxElementsBeforeHalf#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#evaluateData#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#excludeGivenPersons#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#hasIdenticElements#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getSearchBoundary#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#calcOptimalGroupWeight#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#hasSmallestElemThenDifference#0;class#PersonWeightService#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,33 +485,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/vin/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="76" column="71" lean-forward="false" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/vin/PersonWeightService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="78" column="60" lean-forward="false" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+        <state relative-caret-position="255">
+          <caret line="67" column="128" lean-forward="false" selection-start-line="67" selection-start-column="128" selection-end-line="67" selection-end-column="128" />
           <folding>
             <element signature="method#sortPersons#0;class#PersonWeightService#0" expanded="false" />
             <element signature="class#284:559" expanded="false" />
             <element signature="method#compare#0;class#284:559" expanded="false" />
             <element signature="method#calculateGroupOfPersonsWeight#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getPersonWithMaxWeight#0;class#PersonWeightService#0" expanded="false" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
             <element signature="method#getDiferenceWeightBetweenTwoGroups#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getMaxElementsBeforeHalf#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#evaluateData#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#excludeGivenPersons#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#hasIdenticElements#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#getSearchBoundary#0;class#PersonWeightService#0" expanded="false" />
             <element signature="method#calcOptimalGroupWeight#0;class#PersonWeightService#0" expanded="false" />
+            <element signature="method#hasSmallestElemThenDifference#0;class#PersonWeightService#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/vin/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="76" column="71" lean-forward="false" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
